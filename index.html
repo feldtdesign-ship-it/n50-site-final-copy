@@ -31,6 +31,10 @@ a{color:inherit}
 a:focus-visible,button:focus-visible{outline:2px solid var(--amber);outline-offset:3px}
 .mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
 .label{font-family:var(--mono);font-size:12px;letter-spacing:.09em;text-transform:uppercase;color:var(--steel)}
+.label .deg{white-space:nowrap}
+@media(max-width:600px){.label .sep{display:none}.label .deg{display:block;margin-top:4px}}
+html,body{overflow-x:clip}
+.dock a{min-width:0;padding-left:8px;padding-right:8px;white-space:nowrap}
 .wrap{padding:0 var(--gut);max-width:1100px;margin:0 auto}
 
 /* sticky bar */
@@ -378,7 +382,7 @@ main:focus{outline:none}
 <section class="hero">
   <div class="photo"><img src="img/lab-windows.jpg" alt="Lab windows at dusk with temperature sensors on the glass"><span class="credit">Photo by Kaitlin Wilson</span></div>
   <div class="copy">
-    <div class="label">Fairbanks, Alaska · 64.8 degrees north</div>
+    <div class="label">Fairbanks, Alaska<span class="sep"> · </span><span class="deg">64.8 degrees north</span></div>
     <div class="k" style="margin:14px 0 0"><span class="nb">N50 Qualified</span></div>
     <h1 class="quote"><span class="a">We do not seek what can survive north of the&nbsp;50th&nbsp;parallel.</span><span class="b"><i>We seek</i><i>what thrives.</i></span></h1>
     <div class="btns">
