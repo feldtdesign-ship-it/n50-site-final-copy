@@ -1,7 +1,5 @@
-# N50 phone-first site mock
+# North 50 Building Systems
 
-A working mock of the North 50 Building Systems site, designed for phones first and widened for tablets and desktop.
+Site for north50buildingsystems.com. Static page, no build step. Live readings come from the n50-lab-live repo (lab-data branch).
 
-For review only. Copy, numbers and pictures are drafts. Frame images are concept mock-ups. The page is set to stay out of search engines.
-
-Live mock: https://feldtdesign-ship-it.github.io/n50-phone-mock/
+Preview copy: https://feldtdesign-ship-it.github.io/n50-site-final-copy/ (until launch).
