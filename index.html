@@ -41,7 +41,9 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--amber);outline-offs
 h1,h2,h3{overflow-wrap:break-word;text-wrap:balance}
 .label .deg{white-space:nowrap}
 @media(max-width:600px){.label .sep{display:none}.label .deg{display:block;margin-top:4px}}
-html,body{overflow-x:clip}
+html{overflow-x:hidden;overscroll-behavior-x:none}
+body{overflow-x:clip;max-width:100%}
+img,svg,iframe,video{max-width:100%}
 .dock a{min-width:0;padding-left:8px;padding-right:8px;white-space:nowrap}
 .wrap{padding:0 var(--gut);max-width:1100px;margin:0 auto}
 
